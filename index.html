@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+   
+</head>
+<body>
+    <div class="card">
+        <div class="search">            
+                <input class = "search_box" , type="text", placeholder="Enter city name" spellcheck="false">
+                <button><i class="fa-solid fa-magnifying-glass", ></i></button>       
+        </div>
+        <div class="weather">
+    
+            <iframe class=" weather_icon" src="https://lottie.host/embed/4d5fe702-3d33-4ad0-867e-28333cf152c4/g3NbPhNSaV.json"></iframe>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Mija City</h1>
+            <div class="details">
+                <div class="col">
+                    <iframe src="https://lottie.host/embed/7067c030-7c2f-4f3c-830c-fca56cf49c8b/t90WmdnjQt.json"></iframe>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <iframe src="https://lottie.host/embed/0c358785-e372-451d-a0ca-0d5030915f38/I1x59J3lvK.json"></iframe>
+                    <p class="wind">25 km/h</p>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
